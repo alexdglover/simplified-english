@@ -1,0 +1,70 @@
+# get rid of contractions
+- action: replace
+  input: "don't"
+  output: "do not"
+- action: replace
+  input: "can't"
+  output: "can not"
+- action: replace
+  input: "won't"
+  output: "will not"
+- action: replace
+  input: "wouldn't"
+  output: "would not"
+- action: replace
+  input: "isn't"
+  output: "is not"
+- action: replace
+  input: "aren't"
+  output: "are not"
+- action: replace
+  input: "they're"
+  output: "they are"
+
+# double e for long e sounds
+- action: replace
+  input: "fiend"
+  output: "feend"
+- action: replace
+  input: "cieling"
+  output: "ceeling"
+- action: replace
+  input: "wierd"
+  output: "weerd"
+
+# single e with no other letters for short e sounds
+- action: replace
+  input: "friend"
+  output: "frend"
+
+# double o for long o sounds
+- action: replace
+  input: "wound"
+  output: "woond"
+  
+# use ow consistently 
+- action: replace
+  input: "wound"
+  output: "wownd"
+
+# drop extraneous consonants
+- action: replace
+  input: "accommodate"
+  output: "acomodate"
+
+# single pronoun for all gendered pronouns
+- action: replace
+  input: "he"
+  output: "she"
+- action: replace
+  input: "him"
+  output: "her"
+- action: replace
+  input: "his"
+  output: "hers"
+
+
+
+
+
+  
