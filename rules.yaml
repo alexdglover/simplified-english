@@ -26,7 +26,7 @@
   input: "fiend"
   output: "feend"
 - action: replace
-  input: "cieling"
+  input: "ceiling"
   output: "ceeling"
 - action: replace
   input: "wierd"
