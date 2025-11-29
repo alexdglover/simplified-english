@@ -41,11 +41,26 @@
 - action: replace
   input: "wound"
   output: "woond"
-  
+
+# u for uh instead of ou
+- action: replace
+  input: "wood"
+  output: "wud"
+- action: replace
+  input: "would"
+  output: "wud"
+- action: replace
+  input: "could"
+  output: "cud"
+
 # use ow consistently 
 - action: replace
   input: "wound"
   output: "wownd"
+- action: replace
+  input: "pound"
+  output: "pownd"
+
 
 # drop extraneous consonants
 - action: replace
