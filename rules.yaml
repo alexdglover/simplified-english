@@ -70,6 +70,12 @@
 - action: replace
   input: "embarrass"
   output: "embaras"
+- action: replace
+  input: "necessary"
+  output: "necesaree"
+- action: replace
+  input: "occurrence"
+  output: "ocurence"
 
 # single pronoun for all gendered pronouns
 - action: replace
@@ -93,6 +99,40 @@
 - action: replace
   input: "pneumatic"
   output: "noomatic"
+
+# eliminate homonyms
+- action: replace
+  input: "affect"
+  output: "have an effect"
+
+# replace long u with yoo
+- action: replace
+  input: "uniform"
+  output: "yooniform"
+- action: replace
+  input: "computation"
+  output: "compyootashun"
+
+# ce for sharp s sound
+- action: replace
+  input: "loose"
+  output: "looce"
+- action: replace
+  input: "goose"
+  output: "gooce"
+
+# remove redundant words when one is objectively clearer or easier to understand
+- action: replace
+  input: "inflammable"
+  output: "flammabull"
+
+# replace ble suffix with phonetic spelling
+- action: replace
+  input: "capable"
+  output: "capabul"
+
+
+
 
 
   
