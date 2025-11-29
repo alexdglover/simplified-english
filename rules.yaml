@@ -83,7 +83,16 @@
   output: "hers"
 
 
-
+# remove silent consonants before an n
+- action: replace
+  input: "gnome"
+  output: "nome"
+- action: replace
+  input: "lasagna"
+  output: "lazanya"
+- action: replace
+  input: "pneumatic"
+  output: "noomatic"
 
 
   
