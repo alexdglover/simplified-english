@@ -42,19 +42,20 @@
   input: "wound"
   output: "woond"
 
-# u for uh instead of ou
+# ou for oo-uh instead of oul or oo
 - action: replace
   input: "wood"
-  output: "wud"
+  output: "woud"
 - action: replace
   input: "would"
-  output: "wud"
+  output: "woud"
 - action: replace
   input: "could"
-  output: "cud"
+  output: "coud"
 
 # use ow consistently 
 - action: replace
+  # as in "wound up the toy"
   input: "wound"
   output: "wownd"
 - action: replace
@@ -66,6 +67,9 @@
 - action: replace
   input: "accommodate"
   output: "acomodate"
+- action: replace
+  input: "embarrass"
+  output: "embaras"
 
 # single pronoun for all gendered pronouns
 - action: replace
